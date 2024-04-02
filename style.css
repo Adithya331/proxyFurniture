@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 2rem;
+}
+
+#bluetext {
+    color: blue;
+}
+
+.navbar,
+.navbar .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navbar .left input {
+    border: none;
+    font-size: large;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: orange;
+}
+
+.navbar .right ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.one {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.one .left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.one .left .offer h3 {
+    display: inline;
+    padding: 2px;
+    background-color: orange;
+}
+
+.one .left h2 {
+    color: orange;
+}
+
+.one .left .features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.one .left .features .feature {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.one .left .features .feature img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.one .left .explore button {
+    font-size: large;
+    width: 200px;
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+
+.one .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.one .right img{
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+}
+
+.one .right .imgbg{
+    display: none;
+}
+
+.one .right img:hover{
+    transform: scale(1.1);
+}
+
+.two {
+    background-color: orange;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.two .left .heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.two .right {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.two .right img {
+    background-color: white;
+    padding: .5rem;
+    border-radius: 1rem;
+    height: 15rem;
+    width: 15rem;
+}
+
+.three {
+    margin-top: 5rem;
+    background-color: rgb(76, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.three img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.four {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+}
+
+.four .card {
+    padding: 1rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+.four .card img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.five {
+    gap: 4rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: rgb(76, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.five .left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.five .left img {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid;
+    height: 10rem;
+    width: 10rem;
+}
+
+.five .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.five .right .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.five .right .list .item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.five .right .list .item .tick {
+    background-color: orange;
+    font-weight: bold;
+    padding: .3rem;
+    border-radius: 50%;
+    color: white;
+}
+
+.five .right .button button{
+    background-color: white;
+    color: orange;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.five .right .button button:hover{
+    color: white;
+    background-color: orange; 
+}
+
+.six{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.six .top{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.six .navbar{
+    display: flex;
+    font-size: large;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.six .grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25%;
+    gap: 2rem;
+    width: 90%;
+    align-items: center;
+    justify-self: center;
+    grid-template-areas: "card1 card2"
+    "card3 card4"
+    "card5 card6"
+    "card7 card8"
+    ;
+
+}
+
+.six .grid .card img{
+    height: 8rem;
+    width: 8rem;
+    background-color: rgb(48, 199, 219);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.six .grid .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.six .grid .card .star{
+    color: gold;
+}
+
+.six .grid .card1
+{
+    grid-area: card1;
+}
+.six .grid .card2
+{
+    grid-area: card2;
+}
+.six .grid .card3
+{
+    grid-area: card3;
+}
+.six .grid .card4
+{
+    grid-area: card4;
+}
+.six .grid .card5
+{
+    grid-area: card5;
+}
+.six .grid .card6
+{
+    grid-area: card6;
+}
+.six .grid .card7
+{
+    grid-area: card7;
+}
+.six .grid .card8
+{
+    grid-area: card8;
+}
+
+
+
+
+/* Tablet design */
+@media screen and (min-width:690px) and (max-width:991px) {
+
+    .navbar,
+    .navbar .left {
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+}
+
+
+/* Desktop design */
+@media screen and (min-width:992px) {
+
+    .navbar,
+    .navbar .left {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .one {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        height: 90vh;
+    }
+
+    .one .left .features {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .one .left,
+    .one .right {
+        width: 50%;
+    }
+
+    .one .right img{
+        height: 20rem;
+        width: 20rem;
+        position: absolute; 
+    }
+    
+    .one .right .imgbg{
+        display: block;
+        background-color: orange;
+        height: 80%;
+        width: 80%;
+        border-radius: 50%;
+    }
+    
+
+    
+
+    .two {
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .two .left {
+        flex-grow: 1.5;
+    }
+
+    .two .right img {
+        padding: .5rem;
+        border-radius: 1rem;
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .two .right {
+        justify-content: center;
+        flex-grow: 3;
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .three {
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+        position: relative;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .three .square {
+        background: rgb(18, 99, 131);
+        height: 6vh;
+        position: absolute;
+        bottom: 4vh;
+        width: 97%;
+        z-index: -1;
+        border-radius: 15px;
+    }
+
+    .four {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .four .card {
+        border-radius: 1rem;
+        width: 40%;
+    }
+
+    .five {
+        gap: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .five .left {
+        width: 50%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+
+        grid-template-areas: "img1 img2" "img3 img4";
+    }
+
+    .five .left .img1 {
+        grid-area: img1;
+    }
+
+    .five .left .img2 {
+        grid-area: img2;
+    }
+
+    .five .left .img3 {
+        grid-area: img3;
+    }
+
+    .five .left .img4 {
+        grid-area: img4;
+    }
+
+    .five .right {
+        width: 50%;
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .six .grid{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 50%;
+        gap: 2rem;
+        align-items: center;
+        grid-template-areas: "card1 card2 card3 card4"
+        "card5 card6 card7 card8";
+        margin-left: 1rem;
+        margin-right: 1rem;
+    
+    }
+}
