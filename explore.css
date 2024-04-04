@@ -378,8 +378,8 @@ th, td {
 /* Tablet design */
 @media screen and (min-width:690px) and (max-width:991px) {
 
-    *{
-        font-size: large;
+    body{
+        font-size: 1.5rem;
     }
     .navbar,
     .navbar .left {
