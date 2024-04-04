@@ -48,6 +48,7 @@ body {
 }
 .navbar .left .search input{
     border: none;
+    outline: none;
     font-size: large;
     background-color: orange;
 }
@@ -89,6 +90,8 @@ body {
 .one .left .offer h3 {
     display: inline;
     padding: 2px;
+    padding: 10px;
+    border-radius: 2px;
     background-color: orange;
 }
 
@@ -122,6 +125,10 @@ body {
     border: none;
     border-radius: 5px;
     background-color: orange;
+}
+
+.one .left .feature .feature a{
+    cursor: pointer;
 }
 
 
@@ -568,6 +575,7 @@ body {
     border: none;
     font-size: large;
     background-color: orange;
+    outline: none;
 }
 
 .footer .row1 .search{
@@ -593,6 +601,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 
 
