@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+th, td {
+    border: 2px solid #000;
+    padding: 1.5rem;
+    text-align: center;
+    width: 20%; 
+    overflow: hidden; 
+}
+
+#star{
+    color: gold;
+}
+
+#bluetext {
+    color: blue;
+}
+
+.navbar,
+.navbar .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.navbar .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar .left .logo{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.navbar .left .logo img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.navbar .left .search img{
+    height: 2rem;
+    width: 2rem;
+
+}
+.navbar .left .search input{
+    border: none;
+    outline: none;
+    font-size: large;
+    background-color: orange;
+}
+
+.navbar .left .search{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    padding :.5rem;
+    width:fit-content;
+    border-radius: 1rem;
+    background-color: orange;
+}
+
+.navbar .right ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.one {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.one .left{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.one .left .top, .one .left .bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.one .left img{
+    padding: 1rem;
+    height: 7rem;
+    width: 7rem;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.one .middle img{
+    height: 15rem;
+    width: 15rem;
+}
+.one .middle{
+    flex-grow: 1;
+    margin-top: 2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one .right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.one .right .one{
+    display: flex;
+    flex-direction: column;
+}
+
+.one .right .two{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.one .right .two .feature img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.one .right .two .feature{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.one .right .three{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.one .right .three .colors{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.one .right .three .colors span{
+   height: 1.5rem;
+   width: 1.5rem;
+   border-radius: 50%;
+}
+
+.one .right .three .color1{
+    background-color: blue;
+}
+.one .right .three .color2{
+    background-color: orange;
+}
+.one .right .three .color3{
+    background-color: magenta;
+}
+.one .right .three .color4{
+    background-color: brown;
+}
+.one .right .three .color5{
+    background-color: green;
+}
+.one .right .three .color6{
+    background-color: black;
+}
+.one .right .three .color7{
+    background-color: maroon;
+}
+.one .right .three .color8{
+    background-color: olive;
+}
+
+.one .right .four{
+    margin-top: 2rem;
+}
+
+.one .right .four li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.one .right .five{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.two {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.two .bottom .left, .two .bottom .right{
+    margin: 2rem;
+}
+
+.three{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.three .bottom .features{
+    margin:2rem ;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.three .bottom .features .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.three .bottom .features .feature img{
+    height: 10rem;
+    width: 10rem;
+    background-color: orange;
+    padding: 1rem;
+    border-radius:2rem ;
+}
+
+.three .bottom .features .feature button{
+    background-color: orange;
+    outline: none;
+    border: none;
+    padding: .5rem;
+    border-radius: 2rem;
+    font-size: large;
+    color: white;
+}
+
+.four{
+    margin-top: 5rem ;
+}
+
+/* Tablet design */
+@media screen and (min-width:690px) and (max-width:991px) {
+
+    .navbar,
+    .navbar .left {
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Desktop css */
+@media screen and (min-width:992px) {
+
+    .navbar,
+    .navbar .left {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .one{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .one .left .top, .one .left .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    .one .left{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        flex-grow: 1;
+    }
+
+    .one .middle{
+        flex-grow: 1;
+    }
+
+    .one .middle img{
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .one .right{
+        flex-grow: 1;
+        height: 85vh;
+        overflow: auto;
+        width: 40%;
+        padding: 2rem;
+    }
+
+    .two .bottom{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .three .bottom .features{
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+}
